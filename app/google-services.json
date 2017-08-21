@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725291653701",
+    "firebase_url": "https://fingerprintdrive.firebaseio.com",
+    "project_id": "fingerprintdrive",
+    "storage_bucket": "fingerprintdrive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725291653701:android:b95dc744cafe0972",
+        "android_client_info": {
+          "package_name": "com.fullwipe.fingerprintdrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725291653701-51kdmc78o5d0c57qadgrif6s3rsuu58n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fullwipe.fingerprintdrive",
+            "certificate_hash": "30a94cd2c4e76e4f7d47d7b2409896239d7a801b"
+          }
+        },
+        {
+          "client_id": "725291653701-i4n6ddst0m6g6rqd715m8omuvfj315ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX9C_6nppDSsU5qQt0d2ETZusW1SEQKqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725291653701-i4n6ddst0m6g6rqd715m8omuvfj315ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

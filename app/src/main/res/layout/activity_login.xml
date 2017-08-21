@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="36dp"
+    android:background="@color/colorDefaultBackground"
+    android:focusableInTouchMode="true"
+    tools:context="com.fullwipe.fingerprintdrive.login.LoginActivity"
+    >
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fingerprint_drive"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+    <LinearLayout
+        android:id="@+id/name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ivLogo">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginRight="4dp"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:text="FINGERPRINT"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="DRIVE"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tiEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/grey"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="55dp"
+    >
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="@dimen/default_drawable_padding"
+            android:backgroundTint="@color/grey"
+            android:imeOptions="actionNext"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tiPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiEmail"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/grey">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableTint="@color/grey"
+            android:drawablePadding="@dimen/default_drawable_padding"
+            android:imeOptions="actionDone"
+            android:backgroundTint="@color/grey"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiPassword"
+        android:layout_marginTop="25dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <TextView
+        android:id="@+id/text_ForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/grey"
+        android:gravity="center"
+    />
+
+    <include layout="@layout/divider"
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/text_ForgotPassword"/>
+
+    <LinearLayout
+        android:id="@+id/signin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/divider"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginRight="4dp"
+            android:textColor="@color/grey"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:text="Non hai ancora un account?"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="REGISTRATI"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
+

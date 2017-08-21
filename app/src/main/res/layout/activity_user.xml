@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="390dp"
+        android:background="@drawable/triangle_left"
+        android:id="@+id/relativeLayout3">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/fingerprint_drive"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/triangle_right"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/user_act"
+        android:layout_width="315dp"
+        android:layout_height="154dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/user_act"
+        android:layout_below="@+id/aggcollaboratore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"/>
+
+    <TextView
+        android:id="@+id/benvenuto"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        tools:text="Benvenuto [utente]!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#3A6A75"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"/>
+
+    <TextView
+        android:id="@+id/aggcollaboratore"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aggcollaboratore"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/benvenuto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/btnaggcollab"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_act"
+        android:text="@string/btnaggcollab"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/btncontenuti"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btncontenuti"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btnaggcollab"
+        android:layout_centerHorizontal="true"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+</RelativeLayout>

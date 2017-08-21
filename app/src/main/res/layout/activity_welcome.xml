@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp"
+    android:background="@color/colorDefaultBackground"
+    tools:context="com.fullwipe.fingerprintdrive.login.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fingerprint_drive"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/fpscritta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ivLogo">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="20sp"
+            android:layout_marginRight="4dp"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:text="FINGERPRINT"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="DRIVE"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fpscritta"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/welcome_msg"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_marginTop="46dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:background="@drawable/green_button"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="26dp"
+        android:text="@string/signin"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Lipari Valentina, Meo Giovanni and Illiano Francesca on 30/7/2017
+  -->
+
+<resources>
+    <color name="colorPrimary">#1f2d44</color>
+    <color name="colorPrimaryDark">#1b273b</color>
+    <color name="colorAccent">#5accc1</color>
+
+    <color name="colorDefaultBackground">#1f2d44</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="grey">#cccccc</color>
+</resources>

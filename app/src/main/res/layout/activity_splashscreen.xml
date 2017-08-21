@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:background="@color/colorDefaultBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.fullwipe.fingerprintdrive.SplashscreenActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fingerprint_drive"
+        android:paddingTop="150dp"
+        android:layout_centerHorizontal="true"
+        />
+
+        <LinearLayout
+            android:id="@+id/name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ivLogo">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:text="FINGERPRINT"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:text="DRIVE"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+</RelativeLayout>

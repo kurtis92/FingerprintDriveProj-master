@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FingerPrint Drive</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confpassword">Conferma Password</string>
+    <string name="login">Accedi</string>
+    <string name="signin">Registrati</string>
+    <string name="forgot_password">Hai dimenticato la password?</string>
+    <string name="welcome_msg">Benvenuto! Vuoi effettuare l\'accesso o registrarti?</string>
+    <string name="aggcollaboratore">Aggiungi un collaboratore su questo dispositivo o inizia ad esplorare i tuoi contenuti</string>
+    <string name="btnaggcollab">Aggiungi Collaboratore</string>
+    <string name="btncontenuti">Esplora Contenuti</string>
+    <string name="registra">REGISTRA</string>
+    <string name="dispositivo">la tua impronta sul dispositivo</string>
+    <string name="generic_error">Si è verificato un errore</string>
+    <string name="no_users_found">Non ci sono utenti registrati</string>
+    <string name="wait">Attendere</string>
+    <string name="thanks">Grazie</string>
+    <string name="read_phone_state_permission_denied_msg">Senza questo permesso non è possibile utilizzare l\'applicazione.</string>
+    <string name="warning">Attenzione</string>
+    <string name="ask_exit">Sei sicuro di voler uscire?</string>
+    <string name="yes">Sì</string>
+    <string name="cancel">Annulla</string>
+
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+
+</resources>

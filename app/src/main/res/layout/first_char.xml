@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:background="@drawable/shape_circle">
+
+
+    <com.github.pavlospt.roundedletterview.RoundedLetterView
+        android:id="@+id/rlv_name_view2"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:rlv_backgroundColorValue="#72cfeb"
+        app:rlv_titleColor="@android:color/white"
+        app:rlv_titleSize="25dp"
+        tools:rlv_titleText="A"
+        android:layout_gravity="center"
+        />
+</FrameLayout>
